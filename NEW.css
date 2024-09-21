@@ -1,0 +1,466 @@
+/*CSS variables section*/
+:root {
+    background-color: rgba(4, 14, 21, 10);
+    
+}
+
+/*Extra Large screens - Extra large desktops*/
+header{
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    color: white;
+/*    position:relative;*/
+    z-index: 1;
+
+}.Desktop{
+    width: 100%;
+    height: 100px;
+    background-color:transparent;
+    color: white;
+    z-index: 1;
+    display:inline-block;
+
+}
+.active{
+    display: none;
+    position: fixed;
+}
+.Desktop a{
+    float: left;
+    padding:8px 28px;
+    font-size: 20px;
+    font-family: sans-serif,cursive;
+    text-decoration: none;
+}
+.Desktop a:hover{
+    float: left;
+    padding:8px 28px;
+    font-size: 20px;
+    color: dimgray;
+    transition: 0.5s;
+    font-family: sans-serif,cursive;
+    text-decoration: none;
+}
+.Mobile{
+  height:350px;
+  width: 250px;
+  z-index: 1;
+  top: 0;
+  background-color: white;
+ position: relative;
+  overflow-x: hidden;
+  transition: 0.8s;
+  overflow: hidden;
+  display: none;
+  position: fixed;
+/*  margin-left: 40px;*/
+}span{
+    display: block;
+    z-index: -1;
+}
+.Mobile #active{
+   font-size: 45px;
+    top: 0;
+    padding: 0;
+    margin-left:75%;
+    overflow-x: hidden;
+}
+.Mobile a{
+    display: block;
+    padding:8px 28px;
+    font-size: 24px;
+    color: dimgray;
+    transition: 0.5s;
+    font-family: sans-serif,cursive;
+    text-decoration: none;
+}.Mobile a:hover{
+
+    color:black;
+transition: 0.5s;
+}
+.hero{
+    width: 100%;
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-color:darkred; 
+/*    margin-top: 300px;*/
+
+    
+}
+.hero-description{
+    height: 450px;
+    background-color: rgba(0, 0, 21, .7);
+    backdrop-filter: 15px;
+    display: flex;
+/*    border: 3px solid white;*/
+    backdrop-filter: blur(5px);
+}
+.hero-text{
+    width:80% !important;
+    margin: auto !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20%;
+/*    border: 3px solid white;*/
+    
+}
+
+
+.hero-text p{
+    color:white;
+    width: 50%;
+    align-items: center;
+    margin-left: 20%;
+}
+.hero-title{
+     /* padding-top:80px; */
+     font-weight: 800;
+    text-transform: uppercase;
+    font-size: 80px;
+    color:orange;
+    width: 100%;
+   text-align: center;
+
+}
+.social{
+    width:100%;
+}
+.icons{
+    font-size: 20px;
+    letter-spacing: 5px;
+
+}
+main{
+    width:80% !important;
+    margin: auto !important;
+}
+.title{
+    color:white;
+    font-weight: 600;
+    font-size: 40px;;
+    margin:50px 0px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 25%;
+    
+}
+
+
+/*.game-logo img{
+    width:100%;
+    height: 100%;
+    object-fit: contain;
+}*/
+h3{
+    color:white;
+    text-align: center;
+}
+
+.College{
+    display: flex;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    /* background-color:	rgba(0, 0, 47,0.3); */
+    justify-content: space-evenly;
+}
+.College-list{
+    margin: 30px;;
+    padding: 20px;
+    height: 250px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border:1px solid gray;
+    background: rgba(255, 75, 255, 0.1);
+    box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+.College-list:hover{
+    transform: scale(1.05);
+}
+.Program{
+    margin-top: 50px;\
+    border: 6px solid white;
+}
+.Program-store{
+    margin-top: 20px !important;
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+/*border: 7px solid white;*/
+}
+.Program-image{
+    width:300px;
+    height: 180px;
+    
+}
+.Program-image img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.Program-store-list{
+    width:300px;
+    height: 200px;
+     margin: 20px;
+    overflow: hidden;
+    border-top: none;
+    
+      -webkit-box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+              box-shadow: 0 8px 40px 0 rgba(45, 57, 231, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-bottom: 1px solid blueviolet;
+    color:white;
+     
+}
+h4{
+    color:white;
+    font-weight: 700;
+}
+
+.contact{
+    
+    border: none;
+    outline: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.contact-list{
+    margin-top: 15px !important;
+    color: white;
+     border: none;
+    outline: none;
+}
+h5{
+    color:white;
+}
+span{
+    padding-right: 10px;
+     border: none;
+    outline: none;
+}
+.contact-list{ 
+    width: 25px;
+}
+.email-contact{
+    width:80%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+     border: none;
+    outline: none;
+}
+
+
+
+
+
+
+/*General CSS and CSS reset*/
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+/* ____________________________________________________________________*/
+/*MEDIA QUERIES*/
+/*Large screens - Desktop*/
+@media screen and (max-width: 1500px) {
+    .hero{
+        height: 550px !important;;
+        background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_1200_600.jpg");
+    }
+    .hero-description{
+        height: 550px
+    }
+    .hero-title{
+        font-size:50px;
+    }
+}
+
+/*medium screens - Laptops*/
+@media screen and (max-width: 1024px) {
+    main{
+        width:100% !important;
+        margin: auto !important;
+    }    
+    
+}
+
+/*Small screens - tablets*/
+@media screen and (max-width: 768px) {
+    .heeder-large-screen{
+        display:block !important;
+    }
+    header a{
+        font-size: 14px;
+    }
+    .hero{
+        height: 400px !important;
+        background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
+    }
+    .hero-description{
+        height: 400px;
+        background-color: rgba(0, 0, 21, .7);
+        
+    
+    }
+    .hero-title{
+        font-size: 35px;;
+        
+    }
+    .hero-text p{
+        width: 80%;;
+        font-size: 13px;
+    }
+    .title{
+        text-align: center;
+        font-size: 30px;
+    }
+    .event-text{
+        width:80%;
+        color: blueviolet;
+
+    }
+    .event-text p{
+        font-size: 13px;
+    }
+    .event-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+
+    }
+    .event-hero{
+        width: 80% ;
+        margin: auto;
+    }
+    .event-image{
+        width:250px;
+        height: 400px;
+    }
+    .event-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-list{
+        width: 300px;
+    }
+    .contact{
+        justify-content: space-around;
+    }
+    .contact-list p{
+        font-size: 14px ;
+
+    }
+    h5{
+        font-size: 10px;
+    }
+    
+}
+
+/*Extra small screens - phones*/
+@media screen and (max-width: 480px) {
+   .Mobile{
+  display:inline-block;
+  width: 100%;
+}.Desktop{
+    display:none;
+
+
+}#menu{
+}
+    }
+    .hero{
+
+        height: 450px !important;
+        background-image: url("https://spaces.w3schools.com/images/HVYepJYeHdQ_480_300.jpg");
+    }
+    .hero-description{
+        height: 450px;
+        background-color: rgba(0, 0, 21, .7);
+    
+    }
+    .hero-title{
+        font-size: 30px;;
+        padding-top: 70px;
+    }
+    .hero-text p{
+        width: 100%;;
+        font-size: 13px;
+    }
+    .title{
+        text-align: center;
+        font-size: 25px;
+    }
+    .event-text{
+        width:100%;
+        color: blueviolet;
+
+    }
+    .event-text p{
+        font-size: 13px;
+    }
+    .event-title{
+        font-size: 30px;
+        text-transform: uppercase;
+        font-weight: 600;
+    
+
+    }
+    .event-hero{
+        width: 90% ;
+        margin: auto;
+    }
+    .event-image{
+        width:250px;
+        height: 400px;
+    }
+    .event-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact-list{
+        width: 300px;
+        padding:25px;
+        border:1px solid rgba(49, 45, 45, 0.5);
+        border-radius: 10px;
+    }
+    .contact-list p{
+        font-size: 12px ;
+
+    }
+    h5{
+        font-size: 15px;
+    }
+    .badge{
+
+    }
+    p{
+        font-size: 12px;
+    }
+    
+}
